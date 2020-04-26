@@ -120,6 +120,10 @@ header {
   padding: 21px 0;
 /* Gantikan property display ke none */
   display:none;
+  margin-right:20px;
+}
+.menu-icon:hover{
+  color: rgba(248, 248, 255, 0.7);
 }
 
 .header-left {
