@@ -1,0 +1,325 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+body {
+    margin: 0;
+    font-family: "Vollkorn SC";
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: rgba(48, 51, 107, 1);
+    height: 65px;
+}
+
+.logo {
+    width: 124px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-list {
+    float: left;
+}
+
+.header-list li {
+    border-right: solid 1px #fff;
+}
+
+.header-list li:last-child {
+    border-right: none;
+}
+
+.header-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+    visibility: hidden;
+  }
+
+  /* top-wrapper */
+.top-wrapper {
+    padding: 80px 0 50px 0;
+    background-image:url(https://cdn.discordapp.com/attachments/702071722282713192/703247398637404190/Logopit_1587737628883.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:rgba(48, 51, 107, 1);
+    background-position: right;
+    color: white;
+}
+
+.btn {
+    padding: 15px 90px;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(235, 77, 75, 1);
+    border-radius: 5px;
+    box-shadow: 0 10px #8e1210;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    margin-bottom: 20px;
+}
+
+/* Bagian Utama */
+.team-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f1f5f8;
+    text-align: center;
+}
+
+.heading {
+    padding: 50px 0;
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+.heading h2 {
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    position: relative;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.heading h3 {
+    margin: 0 auto;
+    max-width: 740px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.teams {
+    animation-name: mymove;
+    animation-duration: 10s;
+}
+
+.team {
+    width: 20%;
+    float: left;
+}
+
+.team-icon img {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    border: 4px solid #b3aeb5;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.team-icon p {
+    position: relative;
+    width: 100%;
+    color: rgb(2, 2, 2);
+    margin: 0 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.txt-content {
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(2, 2, 2);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Contact-Form */
+.contact-form {
+    padding: 25px 0;
+    width: 100%;
+    background-color: #f1f5f8;
+    font-family: "Vollkorn SC";
+}
+
+.form-heading {
+    color: #5f5d60;
+    font-family: "Vollkorn SC";
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.form-heading p {
+    font-size: 18px;
+    color: #5f5d60;
+}
+
+.form-heading hr {
+    margin-bottom: 50px;
+    border-top: 4px #5f5d60;
+}
+
+form label {
+    color: #5f5d60;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    border: 1px solid #dee7ec;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+}
+
+.row-15 {
+    width: 15%;
+}
+
+.row-75 {
+    width: 75%;
+}
+
+.row-100 {
+    width: 52.5%;
+}
+
+.btn-send {
+    margin-left: 170px;
+    padding: 15px 55px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(235, 77, 75, 1);
+    color: #fff;
+    position: relative;
+    font-family: "Vollkorn SC";
+    z-index: 1;
+}
+
+.btn-send::after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.2);
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 200ms ease-in;
+}
+
+.btn-send:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: rgba(48, 51, 107, 1);
+  }
+
+footer img {
+  width: 200px;
+  height: 100px;
+  border-radius: 0;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
