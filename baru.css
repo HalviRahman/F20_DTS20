@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Vollkorn SC";
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+
+
+.bagian-utama {
+    padding: 0 0 100px 0;
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    background-image:url(https://cdn.discordapp.com/attachments/702071722282713192/703253042673483836/Logopit_1587738943606.jpg);
+    width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.heading {
+    padding: 60px 0 30px 0;
+    color: #5f5d60;
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.peoples {
+    margin: 0 80px;
+    text-align: center;
+    animation-name: mymove;
+    animation-duration: 10s;
+}
+
+.people img {
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.people {
+    width: 20%;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+    height: 250px;
+    text-align: center;
+}
+
+.people p {
+    font-size: 14px;
+}
+
+.txt-contents {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 8px;
+    background-color: rgba(235, 77, 75, 0.6);
+    border-radius: 5px;
+    margin: 50px 0;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(235, 77, 75, 1);
+}
+
+.fa {
+    margin: 5px 5px 5px 5px;
+
+}
+
+/* header */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(48, 51, 107, 1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-right: 50px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+/* Gantikan property display ke none */
+  display:none;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.header-list {
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-list li {
+    border-right: solid 1px #fff;
+}
+
+.header-list li:last-child {
+    border-right: none;
+}
+
+.header-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* bagian utama */
+.extrasatu {
+    padding: 80px 0 50px 0;
+    background-image:url(https://cdn.discordapp.com/attachments/702071722282713192/703247398637404190/Logopit_1587737628883.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:rgba(48, 51, 107, 1);
+    background-position: right;
+    color: white;
+}
+.container{
+  margin-left: 40px;
+  animation-name: mymove;
+  animation-duration: 5s;
+}
+
+.bttn {
+    padding: 15px 90px;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(235, 77, 75, 1);
+    border-radius: 5px;
+    box-shadow: 0 10px #8e1210;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bttn:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+    text-align: center;
+}
+.bttn:hover{
+  background-color: rgba(235, 77, 75, 0.8)
+}
+
+.extrasatu h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+/* Footer */
+footer img {
+  width: 200px;
+  height: 100px;
+  border-radius: 0;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding: 20px;
+
+  background-color: rgba(48, 51, 107, 1);
+}
+
+/* Contact-Form */
+.contact-form {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.section-title{
+  border-bottom: 2px solid #dee7ec;
+  margin-bottom: 40px;
+  padding-bottom: 15px;
+  width: auto;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #7f8c8d
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+
+.input-contact {
+    display: flex;
+}
+
+.input-contact span {
+    color: red;
+}
+
+.input-left {
+    flex-basis: 50%;
+}
+
+.input-right {
+    flex-basis: 50%;
+}
+
+.form {
+    margin-bottom: 100px;
+}
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
