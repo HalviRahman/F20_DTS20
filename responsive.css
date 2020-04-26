@@ -25,6 +25,7 @@
     .header-list{
       display: none;
     }
+    
 }
 
 @media all and (max-width: 670px) {
@@ -90,8 +91,13 @@
     .section-title{
       text-align: center;
     }
+    input, textarea{
+      width: 100%;
+    }
+
     .input-contact{
       flex-direction: column;
+
     }
     .fa{
       display: block;
