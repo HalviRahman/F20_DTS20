@@ -1,0 +1,100 @@
+@media all and (max-width: 1000px) {
+    .people {
+        display: inline-block;
+        margin-bottom: 50px;
+        width:auto;
+        padding: 5px;
+        border:1px solid #ccc;
+    }
+
+    .extrasatu {
+        font-size: 28px;
+    }
+
+    .heading h1 {
+        font-size: 20px;
+    }
+
+    .bagian-utama{
+      width: auto;
+
+    }
+    .input-contact{
+      display: inline-block;
+    }
+    .header-list{
+      display: none;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .people {
+        width: 200px;
+        margin-bottom: ;
+    }
+
+    .peoples{
+      margin: 10px 100px;
+
+    }
+    .extrasatu{
+      background-position: cover;
+      background-color: rgba(48, 51, 107, 1);
+
+    }
+
+    .heading{
+        text-align: center;
+    }
+    .bagian-utama{
+      background-position: center;
+      background-size: auto;
+      width: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .bttn {
+        padding: 10px 20px;
+
+    }
+
+    .extrasatu {
+        float: left;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .extrasatu h1 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .contact-form{
+      flex: none;
+      width: auto;
+
+      padding: 5px;
+    }
+    .section-title{
+      text-align: center;
+    }
+    .input-contact{
+      flex-direction: column;
+    }
+    .fa{
+      display: block;
+    }
+
+}
