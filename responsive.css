@@ -25,7 +25,9 @@
     .header-list{
       display: none;
     }
-    
+    .menu-icon{
+      visibility: visible;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -99,8 +101,7 @@
       flex-direction: column;
 
     }
-    .fa{
-      display: block;
+    .menu-icon{
+      visibility: visible;
     }
-
 }
