@@ -57,7 +57,7 @@ li {
 .people img {
     width: 60px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-top: 20px;
 }
 
@@ -118,8 +118,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-/* Gantikan property display ke none */
-  display:none;
+  visibility: hidden;
   margin-right:20px;
 }
 .menu-icon:hover{
